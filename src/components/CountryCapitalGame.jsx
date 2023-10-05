@@ -7,6 +7,7 @@ export default function CountryCapitalGame({ data }) {
   const [pairIsWrong, setPairIsWrong] = useState(false);
   const [firstChoice, setFirstChoice] = useState("");
   const secondChoice = useRef("");
+  // const onButtonClick = (choice, buttonIsClicked) => {
 
   const allCountryAndCapitals = [
     ...Object.keys(countryData),
